@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1400">
   <title>다원학</title>
   <!-- favicon -->
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
@@ -20,9 +20,11 @@
   <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
   <!-- css -->
-  <link rel="stylesheet" href="./css/style_main.css">
+  <link rel="stylesheet" href="./css/style_index.css">
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -49,13 +51,13 @@
       <div class="header">
         <div class="inner_header">
           <!-- <div class="icon"> -->
-          <h1 class="logo"><a href="#">
+          <h1 class="logo"><a href="./index.html">
               <img src="./images/header/icon.svg" alt="">
               <!-- </div> -->
             </a>
           </h1>
           <ul class="gnb">
-            <li><a href="#">브랜드</a></li>
+            <li><a href="./brand.html">브랜드</a></li>
             <li><a href="#">이벤트</a></li>
             <li><a href="#">제품</a></li>
             <li><a href="#">클래스</a></li>
@@ -69,8 +71,12 @@
     <!-- container_S -->
     <div id="container">
       <!-- story_S -->
+
+
       <div class="story">
-        <div class="story_top_bg">
+        <div class="story_top_bg" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="800">
           <div class="story_logo">
             <div class="story_top">
               <div class="story_title">
@@ -100,7 +106,10 @@
           </div>
 
 
-          <div class="story_img">
+          <div class="story_img"
+          data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="800">
             <div class="story_img01">
               <img src="./images/main/story_img01.jpg" alt="">
               <p>TEA-ROOM</p>
@@ -114,59 +123,82 @@
         <div>
         </div>
       </div>
+  
+    
       <!-- story_E -->
 
       <!-- bestseller_S -->
+       <div class="bestseller_wrap">
       <div class="bestseller">
         <h1>bestseller</h1>
-        <div class="bestseller_swiper">
+        <div class="bestseller_swiper"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="800">
           <!-- Swiper -->
           <div class="swiper mySwiper1">
             <div class="swiper-wrapper">
 
               <div class="swiper-slide">
+                <a href="#">
                 <div class="mySwiper1_wrap">
                   <img src="./images/main/bestseller_01.jpg" alt="">
                   <div class="mySwiper1_cover">
                     <p>재입고 준비중</p>
                   </div>
+                  <div class="specialtea">
+                    <div class="specialtea_bg">
+                      <p>special <br> tea</p>
+                    </div>
+      
+                  </div>
+                
                 </div>
+              </a>
               </div>
 
               <div class="swiper-slide">
+                <a href="#">
                 <div class="mySwiper1_wrap">
                   <img src="./images/main/bestseller_02.jpg" alt="">
                   <div class="mySwiper1_cover">
                     <p>재입고 준비중</p>
                   </div>
                 </div>
+              </a>
               </div>
 
               <div class="swiper-slide">
+                <a href="#">
                 <div class="mySwiper1_wrap">
                   <img src="./images/main/bestseller_03.jpg" alt="">
                   <div class="mySwiper1_cover">
                     <p>재입고 준비중</p>
                   </div>
                 </div>
+              </a>
               </div>
 
               <div class="swiper-slide">
+                <a href="#">
                 <div class="mySwiper1_wrap">
                   <img src="./images/main/bestseller_04.jpg" alt="">
                   <div class="mySwiper1_cover">
                     <p>재입고 준비중</p>
                   </div>
                 </div>
+              </a>
               </div>
 
               <div class="swiper-slide">
+                <a href="#">
                 <div class="mySwiper1_wrap">
                   <img src="./images/main/bestseller_05.jpg" alt="">
                   <div class="mySwiper1_cover">
                     <p>재입고 준비중</p>
                   </div>
                 </div>
+              </a>
               </div>
 
             </div>
@@ -183,17 +215,18 @@
 
 
           <div>
-            <div class="specialtea">
+            <!-- <div class="specialtea">
               <div class="specialtea_bg">
                 <p>special <br> tea</p>
               </div>
 
-            </div>
+            </div> -->
           </div>
 
         </div>
 
       </div>
+    </div>
 
       <!-- bestseller_E -->
 
@@ -215,12 +248,13 @@
               <img class="newgoods_line" src="./images/main/newgoods_line.svg" alt="">
             </div>
 
-
-            <div class="newgoods_wrap">
+<div class="newgoods_swiper_wrap">
+            <div class="newgoods_swiper">
               <div class="swiper mySwiper2">
                 <div class="swiper-wrapper">
 
                   <div class="swiper-slide">
+                    <a href="#">
                     <div class="mySwiper2_wrap">
                       <img src="./images/main/newgoods_01.jpg" />
                       <div class="mySwiper2_cover">
@@ -230,36 +264,44 @@
                         </p>
                       </div>
                     </div>
+                  </a>
                   </div>
 
                   <div class="swiper-slide">
+                    <a href="#">
                     <div class="mySwiper2_wrap">
                       <img src="./images/main/newgoods_02.jpg" />
                       <div class="mySwiper2_cover">
                         <p>다원학 유리 찻잔 <br> 2type</p>
                       </div>
                     </div>
+                  </a>
                   </div>
 
                   <div class="swiper-slide">
+                    <a href="#">
                     <div class="mySwiper2_wrap">
                       <img src="./images/main/newgoods_03.jpg" />
                       <div class="mySwiper2_cover">
                         <p>다원학 천연 월넛 <br>티스푼</p>
                       </div>
                     </div>
+                  </a>
                   </div>
 
                   <div class="swiper-slide">
+                    <a href="#">
                     <div class="mySwiper2_wrap">
                       <img src="./images/main/newgoods_04.jpg" />
                       <div class="mySwiper2_cover">
                         <p>일회용 대나무 티푸드 <br>플레이트 1set </p>
                       </div>
                     </div>
+                  </a>
                   </div>
 
                   <div class="swiper-slide">
+                    <a href="#">
                     <div class="mySwiper2_wrap">
                       <img src="./images/main/newgoods_05.jpg" />
                       <div class="mySwiper2_cover">
@@ -268,9 +310,11 @@
                         </p>
                       </div>
                     </div>
+                  </a>
                   </div>
 
                   <div class="swiper-slide">
+                    <a href="#">
                     <div class="mySwiper2_wrap">
                       <img src="./images/main/newgoods_06.jpg" />
                       <div class="mySwiper2_cover">
@@ -279,9 +323,11 @@
                         </p>
                       </div>
                     </div>
+                  </a>
                   </div>
 
                   <div class="swiper-slide">
+                    <a href="#">
                     <div class="mySwiper2_wrap">
                       <img src="./images/main/newgoods_07.jpg" />
                       <div class="mySwiper2_cover">
@@ -289,12 +335,14 @@
                         머그컵</p>
                       </div>
                     </div>
+                  </a>
                   </div>
 
                 </div>
                 <div class="swiper-scrollbar"></div>
               </div>
             </div>
+          </div>
 
           </div>
         </div>
@@ -305,15 +353,22 @@
       <!-- eventS -->
       <div class="event">
         <h1>EVENT</h1>
-        <div class="event_wrap">
+        <div class="event_wrap"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="800">
 
           <div class="event_section event01">
+            <a href="#">
             <div class="event_contents">
+              
               <div class="event01_img">
+                
                 <img src="./images/main/event_01.svg" alt="">
 
               </div>
               <div class="event01_txt">
+                
                 <h3>2024년 하반기 <br>
                   티 서포터즈 모집</h3>
                 <h4>다원학과 함께 다양한 차 콘텐츠를 <br>
@@ -321,10 +376,11 @@
                 <h5>모집기간 ㅣ 2024.05.05 - 07.01</h5>
               </div>
             </div>
-
+          </a>
           </div>
 
           <div class="event_section event02">
+            <a href="#">
             <div class="event_contents">
               <div class="event02_img">
                 <img src="./images/main/event_02.svg" alt="">
@@ -338,9 +394,11 @@
                 <h5>참여기간 ㅣ 2024.05.12 - 2024.07.29</h5>
               </div>
             </div>
+          </a>
           </div>
 
           <div class="event_section event03">
+            <a href="#">
             <div class="event_contents">
               <div class="event03_img">
                 <img src="./images/main/event_03.svg" alt="">
@@ -354,6 +412,7 @@
                 <h5>참여기간 ㅣ 2024.09.24 - 2024.10.30</h5>
               </div>
             </div>
+          </a>
           </div>
 
         </div>
@@ -380,51 +439,48 @@
 
           <div class="class_bottom">
             <h1>CLASS</h1>
-            <div class="class_info">
+            <div class="class_info"
+            data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="800">
               <div class="class_about">
-                
 
-                <div class="class12 class01">
-                  <div class="class_wrap">
+                  <div class="class_wrap class_wrap01">
+                    <a href="#">
                     <h2>티 테이스팅 class open </h2>
-                    <h3>오직 차를 위한 차 클래스.
+                    <h3>오직 차를 위한 차 클래스. <br>
                       차를 더 깊게 이해하고 <br>자신에게 맞는 차를 찾아보세요.</h3>
-                    <p><a href="#">더보기</a></p>
+                    <p>더보기</p>
+                  </a>
+                  </div>
+              
 
-                    <div class="class_cover class_cover01">
-                    <video class="class_hover01" src="./video/class_hover_01.mp4" autoplay loop muted></video>
-                  </div>
-                  </div>
-                </div>
-                
-                <div class="class12 class02">
-                  <div class="class_wrap">
+                  <div class="class_wrap class_wrap02">
+                    <a href="#">
                     <h2>병차 만들기 class open </h2>
                     <h3>찻잎으로 차를 가공해보는 클래스. <br>
                       청나라 시절부터 쭉 사랑을 받고 있는 병차를 만들어 보아요.</h3>
-                    <p><a href="#">더보기</a></p>
-                    <div class="class_cover class_cover02">
-                    <video class="class_hover02" src="./video/class_hover_02.mp4" autoplay loop muted></video>
+                    <p>더보기</p>
+                  </a>
+
                   </div>
-                  </div>
+
                 </div>
 
+
                 <div class="class_video">
+                  <video class="class_hover01" src="./video/class_hover_01.mp4" autoplay loop muted></video>
+                  <video class="class_hover02" src="./video/class_hover_02.mp4" autoplay loop muted></video>
                   <video class="class_main" src="./video/main_class.mp4" autoplay loop muted></video>
                 </div>
               </div>
-
-              <!-- <div class="class_video">
-                <video class="class_main" src="./video/main_class.mp4" autoplay loop muted></video>
-
-              </div> -->
-
             </div>
 
           </div>
 
         </div>
       </div>
+
       <!-- class_E -->
 
       <!-- review_S -->
@@ -526,16 +582,22 @@
       <div class="footertop_right">
         <ul class="footer_icon">
           <li>
+            <a href="#">
             <img src="./images/footer/kakaotalk.png" alt="">
-          <p>카카오톡</p>
+          </a>
+            <p>카카오톡</p>
           </li>
           <li>
+            <a href="#">
             <img src="./images/footer/inastagram.png" alt="">
+          </a>
           <p>인스타그램</p>
           </li>
 
           <li>
+            <a href="#">
             <img src="./images/footer/blog.png" alt="">
+          </a>
             <p>블로그</p>
           </li>
         </ul>
@@ -577,10 +639,12 @@
 
   <!-- wrap_end -->
 
+ 
+
       <!-- jq오픈소스 -->
       <script src="js/jquery-3.7.1.min.js"></script>
 
-  <script src="./js/script.js"></script>
+      <script src="./js/script.js"></script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -636,6 +700,13 @@
       // },
     });
   </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
 
 
 

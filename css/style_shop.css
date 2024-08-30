@@ -1,0 +1,262 @@
+/* webfont */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, img, small, strong, b, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tr, th, td, article, aside, footer, header, nav, section, summary, video{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+html{
+    font-size: 14px;
+    /* rem기준 크기!! */
+}
+
+body{
+    font-family: '을유1945', 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333;
+}
+
+#wrap{
+    min-width: 1400px;
+}
+
+/* header */
+#top{
+    position: relative;
+    width: 100%;
+    height: 630px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+    width: 1920px;
+}
+
+.banner_animation{
+    width: 69px;
+    height: 121px;
+    position: absolute;
+    left: -960px;
+    top: -960px;
+    z-index: 9;
+    background-image: url(../images/brand/haeder_animation.png);
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    background-color: rgba(252,252,252,0.93);
+    padding: 26px 0;
+}
+
+.inner_header{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.gnb{
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.gnb li a{
+    display: block;
+    color: #545454;
+    padding: 0 87.5px;
+}
+
+.gnb li a:hover{
+    color: #4e8552;
+}
+
+.gnb li:nth-child(2){
+    padding-right: 87.5px;
+}
+
+.gnb li:nth-child(3){
+    padding-left: 87.5px;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -57px;
+    z-index: 9;
+}
+
+/* intro */
+.intro{
+    width: 1320px;
+    margin: 139px auto;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 36px;
+    margin-bottom: 79px;
+}
+
+/* 미리 해보기 */
+
+.shop{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.shop_top{
+    margin-bottom: 50px;
+}
+
+.shop_top h2{
+    height: 43px;
+    font-size: 36px;
+    text-align: center;
+    color: #1A1A1A;
+    background-image: url(../images/shop/dot.png);
+    background-repeat: no-repeat;
+    background-position: left 688px top 15px;
+}
+
+.shop_line{
+    position: absolute;
+    left: -361px;
+    top: 10px;
+    overflow: hidden;
+}
+
+.vid{
+    margin-bottom: 60px;
+}
+
+.shop li{
+    border: 1px solid #707070;
+    width: 307px;
+    height: 355px;
+    overflow: hidden;
+
+}
+
+.shop li img:hover{
+    
+    transform: scale(1.12)
+}
+
+.info{
+    width: 309px;
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.info p{
+    padding-top: 12px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+}
+
+.shop_bottom{
+    margin-bottom: 120px;
+}
+
+/* goods */
+.goods{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.goods_top{
+    margin-bottom: 50px;
+}
+
+.goods_top h2{
+    height: 43px;
+    font-size: 36px;
+    text-align: center;
+    color: #1A1A1A;
+    background-image: url(../images/shop/dot.png);
+    background-repeat: no-repeat;
+    background-position: left 711px top 15px;
+}
+
+.goods_line{
+    position: absolute;
+    left: -361px;
+    top: 10px;
+    overflow: hidden;
+}
+
+/* .vid{
+    margin-bottom: 60px;
+} */
+
+.goods li{
+    border: 1px solid #707070;
+    width: 307px;
+    height: 355px;
+    overflow: hidden;
+
+}
+
+.goods li img:hover{
+    
+    transform: scale(1.12)
+}
+
+/* .goods_info{
+    width: 309px;
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.shop_info p{
+    padding-top: 12px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+} */
+
+.goods_bottom{
+    margin-bottom: 120px;
+}
+

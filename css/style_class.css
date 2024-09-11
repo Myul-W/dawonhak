@@ -338,6 +338,20 @@ body{
     color: #1A1A1A;
 }
 
+@keyframes box2_animation{
+    0%{
+        top: 212px;
+    }
+
+    50%{
+        top: 201px;
+        
+    }
+    100%{
+        top: 212px;
+    }
+}
+
 .box1{
     position: absolute;
     left: 253px;
@@ -348,6 +362,7 @@ body{
     position: absolute;
     left: 369px;
     top: 201px;
+    animation: box2_animation 2s infinite linear;
 }
 
 .box3{
@@ -362,10 +377,25 @@ body{
     top: 159px;
 }
 
+@keyframes box5_animation{
+    0%{
+        top: 170px;
+    }
+
+    50%{
+        top: 159px;
+        
+    }
+    100%{
+        top: 170px;
+    }
+}
+
 .box5{
     position: absolute;
     right: 369px;
     top: 159px;
+    animation: box5_animation 2s infinite linear;
 }
 
 .board, .board_gnb2, .board_gnb3{

@@ -1,0 +1,435 @@
+/* webfont */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, img, small, strong, b, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tr, th, td, article, aside, footer, header, nav, section, summary, video{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+html{
+    font-size: 14px;
+    /* rem기준 크기!! */
+}
+
+body{
+    font-family: '을유1945', 'Noto Sans KR';
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333;
+}
+
+#wrap{
+    min-width: 1400px;
+}
+
+/* header */
+#top{
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner{
+    background-image: url(../images/shop/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 631px;
+}
+
+.banner_animation{
+    position: relative;
+    width: 100%;
+}
+
+@keyframes banner_animation{
+    0%{
+        top: 67px;
+    }
+
+    50%{
+        top: 45px;
+        
+    }
+    100%{
+        top: 67px;
+    }
+}
+
+.banner_animation img{
+    position: absolute;
+    right: 187px;
+    top: 67px;
+    animation: banner_animation 2s infinite linear;
+}
+
+.inner_banner{
+    width: 1320px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: -660px;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    background-color: rgba(252,252,252,0.93);
+    padding: 26px 0;
+}
+
+.inner_header{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.gnb{
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.gnb li a{
+    display: block;
+    color: #545454;
+    padding: 0 87.5px;
+}
+
+.gnb li a:hover{
+    color: #4e8552;
+}
+
+.gnb li:nth-child(2){
+    padding-right: 87.5px;
+}
+
+.gnb li:nth-child(3){
+    padding-left: 87.5px;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -57px;
+    z-index: 9;
+}
+
+/* intro */
+.intro{
+    width: 1320px;
+    margin: 139px auto;
+    text-align: center;
+}
+
+.intro h1{
+    font-size: 36px;
+    color: #1A1A1A;
+}
+
+/* shop */
+
+.shop{
+    width: 1320px;
+    margin: 230px auto;
+    position: relative;
+}
+
+.shop_top{
+    margin-bottom: 50px;
+    
+}
+
+.shop_top h2{
+    height: 43px;
+    font-size: 36px;
+    text-align: center;
+    color: #333333;
+    background-image: url(../images/shop/dot.png);
+    background-repeat: no-repeat;
+    background-position: left 688px top 15px;
+}
+
+.shop_line{
+    position: absolute;
+    left: -361px;
+    top: 10px;
+    overflow: hidden;
+}
+
+.tab{
+    width: 1320px;
+    height: 60px;
+}
+
+.tab p{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 16px;
+    padding-right: 16px;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.shop li{
+    border: 1px solid #707070;
+    width: 307px;
+    height: 355px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.shop li img{
+    width: 307px;
+    height: 355px;
+    z-index: 1;
+}
+
+.shop li img:hover{
+ transform: scale(1.12);
+ cursor: url(../images/shop/mouse_hover.png) 20 30, auto;
+}
+
+
+.info{
+    width: 309px;
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px;
+    box-sizing: border-box;
+    z-index: 9;
+    position: absolute;
+    left: -1px;
+    bottom: -1px;
+}
+
+.info p{
+    padding-top: 12px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+}
+
+.shop_bottom{
+    margin-bottom: 120px;
+}
+
+.shop_goods{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* goods */
+.goods{
+    width: 1320px;
+    margin: 0px auto;
+    position: relative
+}
+
+.goods_top{
+    margin-bottom: 50px;
+    margin-top: 270px;
+}
+
+.goods_top h2{
+    height: 43px;
+    font-size: 36px;
+    text-align: center;
+    color:#333333;
+    background-image: url(../images/shop/dot.png);
+    background-repeat: no-repeat;
+    background-position: left 711px top 15px;
+}
+
+.goods_line{
+    position: absolute;
+    left: -361px;
+    top: 10px;
+    overflow: hidden;
+}
+
+.goods_goods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods_second{
+    display: flex;
+}
+
+.goods_second li{
+    margin-top: 47px;
+    margin-right: 28px;
+}
+
+.goods li{
+    border: 1px solid #707070;
+    width: 307px;
+    height: 355px;
+    overflow: hidden;
+    position: relative;
+}
+
+.goods li img:hover{
+    transform: scale(1.12)
+}
+
+.goods li img:hover{
+    transform: scale(1.12);
+    cursor: url(../images/shop/mouse_hover.png) 20 30, auto;
+   }
+
+/* .goods_info{
+    width: 309px;
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.shop_info p{
+    padding-top: 12px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+} */
+
+/* .goods_bottom{
+    margin-bottom: 120px;
+} */
+
+/* under */
+.under{
+    background-image: url(../images/shop/under_img.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 198px;
+    overflow: hidden;
+    padding-top: 278px;
+}
+
+
+.under_img{
+    width: 1320px;
+    margin: auto;
+    position: relative;
+
+}
+
+.tree{
+    position: absolute;
+    right: -83px;
+    top: -240px;
+}
+
+.hak{
+    width: 58px;
+    position: absolute;
+    right: 227px;
+    top: -15px;
+}
+
+/* footer */
+#footer{
+    font-family:'Noto Sans KR';
+    color: #707070;
+    font-size: 13px;
+    font-weight: 300;
+    background-color: #F9F9F9;
+}
+
+.footer_inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#footer span{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    padding-top: 68px;
+}
+
+.footer_number{
+    line-height: 34px;
+    padding-top: 3px;
+}
+
+.footer_id{
+    line-height: 21px;
+}
+
+.footer_icon{
+    display: flex;
+    height: 45px;
+}
+
+.footer_bottom{
+    line-height: 25px;
+}
+
+.footer_icon li{
+    font-family:'Noto Sans KR';
+    font-size: 10px;
+    font-weight: 400;
+    /* width: 56px; */
+    padding: 11px;
+    line-height: 15px;
+}
+
+.footer_icon li:nth-child(1) p{
+    padding-left: 6px;
+}
+
+.footer_icon li:nth-child(2) p{
+    padding-left: 2px;
+}
+
+.footer_icon li:nth-child(3) p{
+    padding-left: 11px;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 108px;
+}
+
+.footer_info{
+    padding-bottom: 31px;
+}
+
+.footerbottom_right{
+    padding-top: 20px;
+}
+

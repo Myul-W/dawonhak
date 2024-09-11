@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28">
+  <g id="그룹_492" data-name="그룹 492" transform="translate(0 -0.288)">
+    <ellipse id="타원_80" data-name="타원 80" cx="13" cy="14" rx="13" ry="14" transform="translate(0 0.288)" fill="#fff" opacity="0.95"/>
+    <g id="그룹_380" data-name="그룹 380" transform="translate(7.178 7.263)">
+      <line id="선_41" data-name="선 41" y2="13" transform="translate(5.822 0.024)" fill="none" stroke="#333" stroke-width="2"/>
+      <line id="선_42" data-name="선 42" y2="11.643" transform="translate(11.643 6.728) rotate(90)" fill="none" stroke="#333" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

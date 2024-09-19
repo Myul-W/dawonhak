@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="197.566" viewBox="0 0 1920 197.566">
+  <g id="그룹_430" data-name="그룹 430" transform="translate(0 21)">
+    <path id="패스_3104" data-name="패스 3104" d="M0,428.68C643.561,313.317,1124.718,541.2,1920,407.905V560.25H0Z" transform="translate(0 -404.053)" fill="#6a9154" fill-rule="evenodd"/>
+    <path id="패스_3105" data-name="패스 3105" d="M1920,420.8V555.431H0V442.777C640.6,338.162,1140.165,526.9,1920,420.8Z" transform="translate(0 -399.234)" fill="#6a9154" fill-rule="evenodd"/>
+    <g id="그룹_1110" data-name="그룹 1110" transform="translate(0 -21)">
+      <path id="패스_4794" data-name="패스 4794" d="M-932.949,382.589c643.558-137.813,1124.718,134.416,1920-24.817V539.764h-1920Z" transform="translate(932.949 -342.199)" fill="#77ad83" fill-rule="evenodd"/>
+      <path id="패스_4795" data-name="패스 4795" d="M987.051,370.881v168.86h-1920v-141.3c200.507-41.07,387.2-46.093,573-37.691C47.836,379.194,451.3,462.308,987.051,370.881Z" transform="translate(932.949 -342.176)" fill="#699f74" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

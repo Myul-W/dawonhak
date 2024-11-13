@@ -11,3 +11,14 @@ $(".class_wrap02").click(function(){
 });	
 });
 
+$(function(){
+        $(".class_wrap p").hide();
+    $(".class_wrap01").click(function(){
+            $(".p1").fadeIn().siblings();
+    });	
+    $(".class_wrap02").click(function(){
+        $(".p2").fadeIn().siblings();
+});	
+   
+    });
+
